@@ -4,7 +4,7 @@
 
 
 ## Hardware Requirements
-- ESP 32 Dev module
+- ESP 32 
 - Micro USB Cable
 - Breadboard
 - LED
