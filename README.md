@@ -1,6 +1,6 @@
 # UltraSonic Speed Camera
 # IOT Project
-! [Ultra-Sonic-Speed-Camera] ("IMG_5024.HEIC")
+! [Ultra-Sonic-Speed-Camera] <img width"50px" src="IMG_" />
 ### Initializing a Node.js Environment
 
 ## Hardware Requirements
