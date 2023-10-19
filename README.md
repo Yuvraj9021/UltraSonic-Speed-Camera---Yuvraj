@@ -2,7 +2,6 @@
 # IOT Project
  [Ultra-Sonic-Speed-Camera](../IMG_5024.HEIC)
 
-### Initializing a Node.js Environment
 
 ## Hardware Requirements
 - ESP 32 Dev module
@@ -11,7 +10,8 @@
 - LED
 - UltraSonic Sensor
 - Cables
-  
+
+  ### Initializing a Node.js Environment
 1. Ensure that Node.js and NPM are installed on your system:
     > node --version
 
