@@ -3,6 +3,14 @@
 ! [Ultra-Sonic-Speed-Camera] (IMG_5024.HEIC)
 ### Initializing a Node.js Environment
 
+## Hardware Requirements
+- ESP 32 Dev module
+- Micro USB Cable
+- Breadboard
+- LED
+- UltraSonic Sensor
+- Cables
+  
 1. Ensure that Node.js and NPM are installed on your system:
     > node --version
 
@@ -18,3 +26,19 @@
 
 5. Install development dependencies
     > npm install --save-dev dotenv nodemon
+
+## Development of Project
+- Set up development environment Arduino IDE.
+- Connect the ESP32 and the ultrasonic sensor as per the sensor's datasheet.
+- Written code to read data from the ultrasonic sensor.
+- Data from the Ultra Sonic sensor is then sent to the server. 
+
+   ## Software Requirements
+- Arduino IDE
+- Visual Studio Code
+- Node Moduels
+
+  ## Resourses
+- https://randomnerdtutorials.com/esp32-hc-sr04-ultrasonic-arduino/
+- https://esp32io.com/tutorials/esp32-ultrasonic-sensor
+- https://www.upesy.com/blogs/tutorials/hc-sr04-ultrasonic-sensor-on-esp32-with-arduino-code-tutorial 
