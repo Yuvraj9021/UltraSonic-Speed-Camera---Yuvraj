@@ -38,6 +38,10 @@
 - Visual Studio Code
 - Node Moduels
 
+
+## How it Works
+
+- The ultrasonic sensor is similar to a Radar Gun that Police uses
   ## Resourses
 - https://randomnerdtutorials.com/esp32-hc-sr04-ultrasonic-arduino/
 - https://esp32io.com/tutorials/esp32-ultrasonic-sensor
