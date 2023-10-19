@@ -11,7 +11,7 @@
 - UltraSonic Sensor
 - Cables
 
-  ### Initializing a Node.js Environment
+## Initializing a Node.js Environment
 1. Ensure that Node.js and NPM are installed on your system:
     > node --version
 
@@ -34,16 +34,16 @@
 - Written code to read data from the ultrasonic sensor.
 - Data from the Ultra Sonic sensor is then sent to the server. 
 
-   ## Software Requirements
+## Software Requirements
 - Arduino IDE
 - Visual Studio Code
 - Node Moduels
 
 
 ## How it Works
+- The Ultrasonic sensor acts like a radar gun and sensors the pace of movement for something. For example waving a hand to and from the sensor. 
 
-- The ultrasonic sensor is similar to a Radar Gun that Police uses
-  ## Resourses
+## Resourses
 - https://randomnerdtutorials.com/esp32-hc-sr04-ultrasonic-arduino/
 - https://esp32io.com/tutorials/esp32-ultrasonic-sensor
 - https://www.upesy.com/blogs/tutorials/hc-sr04-ultrasonic-sensor-on-esp32-with-arduino-code-tutorial 
