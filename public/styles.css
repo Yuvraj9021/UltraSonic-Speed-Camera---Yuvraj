@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    overflow: hidden; /* This hides scrollbars */
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.speed-display {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+#speedingIndicator {
+    font-size: 24px;
+}
+
+.speeding {
+    color: red;
+}
+
+.not-speeding {
+    color: green;
+}
+
+h1, #speedDisplay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* This places these elements on top of the image */
+}
+
+img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* This places the image behind other elements */
+}
+
+.box {
+    width: 350px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(235, 235, 235);
+    border-radius: 20px;
+    opacity: 0.6;
+    }
